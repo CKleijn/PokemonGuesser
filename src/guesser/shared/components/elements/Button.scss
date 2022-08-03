@@ -1,0 +1,31 @@
+.btn {
+    width: 300px;
+    background-color: #fff;
+    color: #3d5467;
+    border: #3d5467;
+
+    &__hint {
+        position: absolute;
+        top: 90px;
+        right: 10px;
+        transform: translateY(-50%);
+        color: #ffffff;
+        text-transform: uppercase;
+        font-family: "Open Sans Condensed", "Open Sans", helvetica, sans-serif;
+        letter-spacing: 0.1em;
+        padding: 0.25em;
+        background: none;
+        width: 120px;
+        font-size: 26px;
+    }
+}
+
+.btn:hover {
+    background: none;
+    color: #fff;
+}
+
+.btn:focus {
+    background: none;
+    box-shadow: none;
+}
