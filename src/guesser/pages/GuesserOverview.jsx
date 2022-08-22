@@ -55,7 +55,7 @@ const GuesserOverview = () => {
                     specialDefense: json.stats[4].base_stat,
                     speed: json.stats[5].base_stat,
                     ability: formatAbility(json.abilities[0].ability.name),
-                    hiddenAbility: formatAbility(json.abilities[1].ability.name),
+                    hiddenAbility: (formatAbility(json.abilities[1].ability.name) || "undefined"),
                 });
 
                 setGuess("");
